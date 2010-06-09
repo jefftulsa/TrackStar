@@ -520,3 +520,19 @@ Stack trace:
 #9 /Webroot/Yii-1.1.2/framework/base/CApplication.php(135): CWebApplication->processRequest()
 #10 /Webroot/trackstar/index.php(12): CApplication->run()
 #11 {main} REQUEST_URI=/trackstar/index.php?r=user/delete&id=6
+2010/06/07 18:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in /Users/jeff/TrackStar/trackstar/protected/controllers/IssueController.php:233
+Stack trace:
+#0 /Users/jeff/TrackStar/trackstar/protected/controllers/IssueController.php(213): IssueController->loadProject(NULL)
+#1 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/filters/CInlineFilter.php(59): IssueController->filterProjectContext(Object(CFilterChain))
+#2 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#3 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CController.php(999): CFilter->filter(Object(CFilterChain))
+#5 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#7 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CController.php(283): CFilterChain->run()
+#8 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CWebApplication.php(320): CController->run('')
+#10 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CWebApplication.php(120): CWebApplication->runController('issue')
+#11 /Users/jeff/TrackStar/Yii-1.1.2/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#12 /Users/jeff/TrackStar/trackstar/index.php(11): CApplication->run()
+#13 {main} REQUEST_URI=/trackstar/index.php?r=issue
