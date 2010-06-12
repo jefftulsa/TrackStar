@@ -50,6 +50,11 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
 	     ),
+	
+	     'authManager'=>array(
+		    'class'=>'CDbAuthManager',
+		    'connectionID'=>'db',
+		 ),
 		
 		
 		// uncomment the following to use a MySQL database

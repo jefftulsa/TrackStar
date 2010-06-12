@@ -56,8 +56,6 @@ CREATE TABLE IF NOT EXISTS `tbl_user`
 
 -- DROP TABLE IF EXISTS `tbl_project_user_assignment` ;
 
--- Table User
-
 CREATE TABLE IF NOT EXISTS `tbl_project_user_assignment`
 (
   `project_id` Int(11) NOT NULL,
@@ -71,6 +69,36 @@ CREATE TABLE IF NOT EXISTS `tbl_project_user_assignment`
 ;
 
 
+CREATE TABLE IF NOT EXISTS `AuthItem`
+(
+  `name` VARCHAR(64) NOT NULL,
+  `type` Int(11) NOT NULL,
+  `description` TEXT,
+  `bizrule` TEXT,
+  `data` TEXT,
+  `update_user_id` INTEGER,
+  PRIMARY KEY (`name`)
+) ENGINE = InnoDB
+;
+
+CREATE TABLE IF NOT EXISTS `AuthItemChild`
+(
+  `parent` VARCHAR(64) NOT NULL,
+  `child` VARCHAR(64) NOT NULL,
+   PRIMARY KEY (`parent`, `child`)
+) ENGINE = InnoDB
+;
+
+CREATE TABLE IF NOT EXISTS `AuthAssignment`
+(
+  `itemname` VARCHAR(64) NOT NULL,
+  `userid` VARCHAR(64) NOT NULL,
+  `bizrule` TEXT,
+  `data` TEXT,
+  PRIMARY KEY (`itemname`, `userid`)
+) ENGINE = InnoDB
+;
+
 -- The Relationships 
 ALTER TABLE `tbl_issue` ADD CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;
 
@@ -82,13 +110,20 @@ ALTER TABLE `tbl_project_user_assignment` ADD CONSTRAINT `FK_project_user` FOREI
 
 ALTER TABLE `tbl_project_user_assignment` ADD CONSTRAINT `FK_user_project` FOREIGN KEY (`user_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;   
 
+ALTER TABLE `AuthItemChild` ADD CONSTRAINT `FK_parent_authitem` FOREIGN KEY (`parent`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `AuthItemChild` ADD CONSTRAINT `FK_child_authitem` FOREIGN KEY (`child`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `AuthAssignment` ADD CONSTRAINT `FK_itemname_authitem` FOREIGN KEY (`itemname`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+ 
+
 -- Insert some seed data so we can just begin using the database
-INSERT INTO `tbl_user` 
-  (`email`, `username`, `password`) 
-VALUES 
-  ('test1@notanaddress.com','Test_User_One', MD5('test1')),
-  ('test2@notanaddress.com','Test_User_Two', MD5('test2'))    
-;
+-- INSERT INTO `tbl_user` 
+--  (`email`, `username`, `password`) 
+-- VALUES 
+--  ('test1@notanaddress.com','Test_User_One', MD5('test1')),
+--  ('test2@notanaddress.com','Test_User_Two', MD5('test2'))    
+-- ;
 
 -- Enable foreign keys
 SET FOREIGN_KEY_CHECKS = 1 ;
