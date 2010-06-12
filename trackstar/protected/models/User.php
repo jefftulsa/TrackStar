@@ -130,7 +130,7 @@ class User extends TrackStarActiveRecord
 		$this->password = $this->encrypt($this->password);                     
 	}
 	
-	private function encrypt($value)
+	public function encrypt($value)
 	{
 		return md5($value);
 	}
