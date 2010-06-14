@@ -99,6 +99,16 @@ CREATE TABLE IF NOT EXISTS `AuthAssignment`
 ) ENGINE = InnoDB
 ;
 
+CREATE TABLE IF NOT EXISTS `tbl_project_user_role`
+(
+   `project_id` INTEGER NOT NULL,
+   `user_id` INTEGER NOT NULL,  
+   `role` VARCHAR(64) NOT NULL, 
+   PRIMARY KEY (`project_id`,`user_id`,`role`)          
+) ENGINE = InnoDB
+;
+
+
 -- The Relationships 
 ALTER TABLE `tbl_issue` ADD CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;
 
@@ -116,6 +126,12 @@ ALTER TABLE `AuthItemChild` ADD CONSTRAINT `FK_child_authitem` FOREIGN KEY (`chi
 
 ALTER TABLE `AuthAssignment` ADD CONSTRAINT `FK_itemname_authitem` FOREIGN KEY (`itemname`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
  
+ALTER TABLE `tbl_project_user_role` ADD CONSTRAINT `FK_project_id` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+   
+ALTER TABLE `tbl_project_user_role` ADD CONSTRAINT `FK_user_id` FOREIGN KEY (`user_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `tbl_project_user_role` ADD CONSTRAINT `FK_role_name` FOREIGN KEY (`role`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+
 
 -- Insert some seed data so we can just begin using the database
 -- INSERT INTO `tbl_user` 

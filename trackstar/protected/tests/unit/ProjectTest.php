@@ -5,6 +5,7 @@ class ProjectTest extends CDbTestCase
 		'projects'=>'Project', 
 		'users'=>'User',
 		'projUsrAssign'=>':tbl_project_user_assignment',
+		'projUserRole'=>':tbl_project_user_role',
     );
 	
 	/*
@@ -115,6 +116,23 @@ class ProjectTest extends CDbTestCase
 					$this->assertTrue(is_array($options));  
 					$this->assertTrue(count($options) > 0);
 				}
+				
+				public function testUserRoleAssignment()
+				{
+					$project = $this->projects('project1');
+					$user = $this->users('user1');  
+					$this->assertEquals(1,$project->associateUserToRole('owner', $user->id));  
+					$this->assertEquals(1,$project->removeUserFromRole('owner', $user->id));
+				}
+				
+				public function testIsInRole()
+				{
+					$project = $this->projects('project1'); 
+					$this->assertTrue($project->isUserInRole('member'));    
+				}
+				
+						
+				
 	
 	
 	
