@@ -65,7 +65,7 @@ class User extends TrackStarActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'issues' => array(self::HAS_MANY, 'Issue', 'requester_id'),
-			'tblProjects' => array(self::MANY_MANY, 'Project', 'tbl_project_user_assignment(project_id, user_id)'),
+			'projects' => array(self::MANY_MANY, 'Project', 'tbl_project_user_assignment(project_id, user_id)'),
 		);
 	}
 
