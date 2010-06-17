@@ -36,7 +36,7 @@ class ProjectController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update', 'adduser'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -187,5 +187,36 @@ class ProjectController extends Controller
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
+	}
+	
+	public function actionAdduser()
+	{
+		
+		
+		$form=new ProjectUserForm; 
+	    $project = $this->loadModel();
+	    // collect user input data
+		if(isset($_POST['ProjectUserForm']))
+		{
+			$form->attributes=$_POST['ProjectUserForm'];
+			$form->project = $project;
+			// validate user input and set a sucessfull flassh message if valid   
+			if($form->validate())  
+			{
+				Yii::app()->user->setFlash('success',$form->username . " has been added to the project." ); 
+				$form=new ProjectUserForm;
+			}
+		}
+		// display the add user form
+		$users = User::model()->findAll();
+		$usernames=array();
+		foreach($users as $user)
+		{
+			$usernames[]=$user->username;
+			
+		}
+		$form->project = $project;
+		$this->render('adduser',array('model'=>$form, 'usernames'=>$usernames)); 
+		
 	}
 }
