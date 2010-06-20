@@ -1,28 +1,24 @@
 <?php
 
 /**
- * This is the model class for table "tbl_user".
+ * This is the model class for table "tbl_comment".
  */
-class User extends TrackStarActiveRecord
+class Comment extends TrackStarActiveRecord
 {
 	/**
-	 * The followings are the available columns in table 'tbl_user':
+	 * The followings are the available columns in table 'tbl_comment':
 	 * @var integer $id
-	 * @var string $email
-	 * @var string $username
-	 * @var string $password
-	 * @var string $last_login_time
+	 * @var integer $content
+	 * @var integer $issue_id
 	 * @var string $create_time
 	 * @var integer $create_user_id
 	 * @var string $update_time
 	 * @var integer $update_user_id
 	 */
 
-	public $password_repeat;
-	
 	/**
 	 * Returns the static model of the specified AR class.
-	 * @return User the static model class
+	 * @return Comment the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -34,7 +30,7 @@ class User extends TrackStarActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tbl_user';
+		return 'tbl_comment';
 	}
 
 	/**
@@ -45,14 +41,12 @@ class User extends TrackStarActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('email, username, password', 'required'),
-			array('email, username, password', 'length', 'max'=>256),
-			array('email, username', 'unique'),
-			array('password', 'compare'),
-			array('password_repeat', 'safe'),
+			array('content', 'required'),
+			array('issue_id, create_user_id, update_user_id', 'numerical', 'integerOnly'=>true),
+			array('create_time, update_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, email, username, password, last_login_time, create_time, create_user_id, update_time, update_user_id', 'safe', 'on'=>'search'),
+			array('id, content, issue_id, create_time, create_user_id, update_time, update_user_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,8 +58,8 @@ class User extends TrackStarActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'issues' => array(self::HAS_MANY, 'Issue', 'requester_id'),
-			'projects' => array(self::MANY_MANY, 'Project', 'tbl_project_user_assignment(project_id, user_id)'),
+			'createUser' => array(self::BELONGS_TO, 'User', 'create_user_id'),
+			'issue' => array(self::BELONGS_TO, 'Issue', 'issue_id'),
 		);
 	}
 
@@ -76,10 +70,8 @@ class User extends TrackStarActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'email' => 'Email',
-			'username' => 'Username',
-			'password' => 'Password',
-			'last_login_time' => 'Last Login Time',
+			'content' => 'Content',
+			'issue_id' => 'Issue',
 			'create_time' => 'Create Time',
 			'create_user_id' => 'Create User',
 			'update_time' => 'Update Time',
@@ -100,13 +92,9 @@ class User extends TrackStarActiveRecord
 
 		$criteria->compare('id',$this->id);
 
-		$criteria->compare('email',$this->email,true);
+		$criteria->compare('content',$this->content);
 
-		$criteria->compare('username',$this->username,true);
-
-		$criteria->compare('password',$this->password,true);
-
-		$criteria->compare('last_login_time',$this->last_login_time,true);
+		$criteria->compare('issue_id',$this->issue_id);
 
 		$criteria->compare('create_time',$this->create_time,true);
 
@@ -120,19 +108,4 @@ class User extends TrackStarActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-	
-	/**
-	 * perform one-way encryption on the password before we store it in the database
-	 */
-	protected function afterValidate()
-	{   
-		parent::afterValidate();
-		$this->password = $this->encrypt($this->password);                     
-	}
-	
-	public function encrypt($value)
-	{
-		return md5($value);
-	}
-	
 }

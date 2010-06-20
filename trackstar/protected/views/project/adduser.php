@@ -4,9 +4,13 @@ $this->breadcrumbs=array(
 	$model->project->name=>array('view','id'=>$model->project->id),
 	'Add User',
 );
+
+$this->menu=array(
+	array('label'=>'Back To Project', 'url'=>array('view','id'=>$model->project->id)),
+);
 ?>
 
-<h1>Add User To Project <?php echo $model->project->name; ?></h1>
+<h1>Add User To <?php echo $model->project->name; ?></h1>
 
 <?php if(Yii::app()->user->hasFlash('success')):?>
      <div class="successMessage">
@@ -44,5 +48,5 @@ $this->breadcrumbs=array(
 	</div>
 
 <?php $this->endWidget(); ?>
-</div><!-- form -->
+</div>
 

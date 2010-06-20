@@ -164,16 +164,7 @@ class Project extends TrackStarActiveRecord
 	 */
 	public static function getUserRoleOptions()
 	{
-		
 		return CHtml::listData(Yii::app()->authManager->getRoles(), 'name', 'name');
-		/*
-		$roleOptions = array();
-			foreach(Yii::app()->authManager->getRoles() as $role)
-			{
-			    $roleOptions[$role->name] = $role->name;
-			}
-			return $roleOptions;
-		*/
 	} 
 	
 	/**

@@ -1,6 +1,6 @@
 <?php
 
-class IssueController extends Controller
+class CommentController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to 'column2', meaning
@@ -12,12 +12,6 @@ class IssueController extends Controller
 	 * @var CActiveRecord the currently loaded data model instance.
 	 */
 	private $_model;
-	
-	/**
-	 * @var private property containing the associated Project model instance.
-	 */
-	private $_project = null; 
-	
 
 	/**
 	 * @return array action filters
@@ -26,7 +20,6 @@ class IssueController extends Controller
 	{
 		return array(
 			'accessControl', // perform access control for CRUD operations
-			'projectContext + create index admin', //perform a check to ensure valid project context 
 		);
 	}
 
@@ -40,7 +33,7 @@ class IssueController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
-				'users'=>array('@'),
+				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
@@ -61,33 +54,10 @@ class IssueController extends Controller
 	 */
 	public function actionView()
 	{
-		$issue=$this->loadModel();
-		$comment=$this->createComment($issue);
-
 		$this->render('view',array(
-					  'model'=>$issue,
-				      'comment'=>$comment,
-				      ));
+			'model'=>$this->loadModel(),
+		));
 	}
-	
-	/**
-	 * Creates a new comment on an issue.
-	 */
-	protected function createComment($issue)
-	{
-		$comment=new Comment;  
-		if(isset($_POST['Comment']))
-		{
-			$comment->attributes=$_POST['Comment'];
-			if($issue->addComment($comment))
-			{
-				Yii::app()->user->setFlash('commentSubmitted',"Your comment has been added." );
-				$this->refresh();
-			}
-		}
-		return $comment;
-	}
-	
 
 	/**
 	 * Creates a new model.
@@ -95,16 +65,14 @@ class IssueController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Issue;
-		
-		$model->project_id = $this->_project->id;
+		$model=new Comment;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Issue']))
+		if(isset($_POST['Comment']))
 		{
-			$model->attributes=$_POST['Issue'];
+			$model->attributes=$_POST['Comment'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -125,9 +93,9 @@ class IssueController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Issue']))
+		if(isset($_POST['Comment']))
 		{
-			$model->attributes=$_POST['Issue'];
+			$model->attributes=$_POST['Comment'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -161,13 +129,7 @@ class IssueController extends Controller
 	 */
 	public function actionIndex()
 	{
-		//$dataProvider=new CActiveDataProvider('Issue');
-		$dataProvider=new CActiveDataProvider('Issue', array(
-			'criteria'=>array(
-		 		'condition'=>'project_id=:projectId',
-		 		'params'=>array(':projectId'=>$this->_project->id),
-		 	),
-		));
+		$dataProvider=new CActiveDataProvider('Comment');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -178,12 +140,10 @@ class IssueController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Issue('search');
-		if(isset($_GET['Issue']))
-			$model->attributes=$_GET['Issue'];
+		$model=new Comment('search');
+		if(isset($_GET['Comment']))
+			$model->attributes=$_GET['Comment'];
 
-		$model->project_id = $this->_project->id;
-		
 		$this->render('admin',array(
 			'model'=>$model,
 		));
@@ -198,7 +158,7 @@ class IssueController extends Controller
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=Issue::model()->findbyPk($_GET['id']);
+				$this->_model=Comment::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}
@@ -211,63 +171,10 @@ class IssueController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='issue-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='comment-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 	}
-	
-	
-	/**
-	 * In-class defined filter method, configured for use in the above filters() method
-	 * It is called before the actionCreate() action method is run in order to ensure a proper project context
-	 */
-	public function filterProjectContext($filterChain)
-	{   
-		     //set the project identifier based on either the GET or POST input request variables, since we allow both types for our actions   
-		     $projectId = null;
-		     if(isset($_GET['pid'])) 
-		          $projectId = $_GET['pid'];
-		     else
-		          if(isset($_POST['pid'])) 
-				       $projectId = $_POST['pid'];
-
-			 $this->loadProject($projectId);   
-
-		     //complete the running of other filters and execute the requested action
-		     $filterChain->run(); 
-	} 
-	 
-	
-	/**
-	 * Protected method to load the associated Project model class
-	 * @project_id the primary identifier of the associated Project
-	 * @return object the Project data model based on the primary key 
-	 */
-	protected function loadProject($project_id)
-	{
-			 //if the project property is null, create it based on input id
-			 if($this->_project===null)
-			 {
-				$this->_project=Project::model()->findbyPk($project_id);
-				if($this->_project===null)
-	            {
-					throw new CHttpException(404,'The requested project does not exist.'); 
-				}
-			 }
-
-			 return $this->_project; 
-	} 
-	
-	/**
-	 *	Returns the project model instance to which this issue belongs
-	 */
-	public function getProject()
-	{
-		return $this->_project;
-	}
-	
-	
-	
 }

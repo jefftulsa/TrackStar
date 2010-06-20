@@ -32,11 +32,11 @@ class ProjectController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'adduser'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update', 'adduser'),
+				'actions'=>array('create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -191,10 +191,12 @@ class ProjectController extends Controller
 	
 	public function actionAdduser()
 	{
-		
-		
-		$form=new ProjectUserForm; 
-	    $project = $this->loadModel();
+		$project = $this->loadModel();
+		if(!Yii::app()->user->checkAccess('createUser', array('project'=>$project)))
+	    {
+			throw new CHttpException(403,'You are not authorized to per-form this action.');
+		} 
+	    $form=new ProjectUserForm; 
 	    // collect user input data
 		if(isset($_POST['ProjectUserForm']))
 		{
@@ -213,10 +215,8 @@ class ProjectController extends Controller
 		foreach($users as $user)
 		{
 			$usernames[]=$user->username;
-			
 		}
 		$form->project = $project;
 		$this->render('adduser',array('model'=>$form, 'usernames'=>$usernames)); 
-		
 	}
 }

@@ -68,6 +68,18 @@ CREATE TABLE IF NOT EXISTS `tbl_project_user_assignment`
 ) ENGINE = InnoDB
 ;
 
+CREATE TABLE IF NOT EXISTS `tbl_comment`
+(
+  `id` Int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `content` TEXT NOT NULL,
+  `issue_id` Int(11),
+  `create_time` DATETIME,
+  `create_user_id` INTEGER,
+  `update_time` DATETIME,
+  `update_user_id` INTEGER
+) ENGINE = InnoDB
+;
+
 
 CREATE TABLE IF NOT EXISTS `AuthItem`
 (
@@ -108,7 +120,6 @@ CREATE TABLE IF NOT EXISTS `tbl_project_user_role`
 ) ENGINE = InnoDB
 ;
 
-
 -- The Relationships 
 ALTER TABLE `tbl_issue` ADD CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;
 
@@ -132,6 +143,9 @@ ALTER TABLE `tbl_project_user_role` ADD CONSTRAINT `FK_user_id` FOREIGN KEY (`us
 
 ALTER TABLE `tbl_project_user_role` ADD CONSTRAINT `FK_role_name` FOREIGN KEY (`role`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
+ALTER TABLE `tbl_comment` ADD CONSTRAINT `FK_comment_issue` FOREIGN KEY (`issue_id`) REFERENCES `tbl_issue` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `tbl_comment` ADD CONSTRAINT `FK_comment_author` FOREIGN KEY (`create_user_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- Insert some seed data so we can just begin using the database
 -- INSERT INTO `tbl_user` 
