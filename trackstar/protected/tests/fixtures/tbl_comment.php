@@ -17,4 +17,13 @@ return array(
 		'update_time' => '',
 		'update_user_id' => '',
 	),
+	'comment3'=>array(
+		'content' => 'The first test comment on the first feature issue associated with Project #3',
+		'issue_id' => 3,
+		'create_time' => '',
+		'create_user_id' => '',
+		'update_time' => '',
+		'update_user_id' => '',
+	),
+	
 );

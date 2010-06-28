@@ -64,6 +64,11 @@ class ProjectController extends Controller
 		 	),
 		 ));
 		
+		Yii::app()->clientScript->registerLinkTag(
+		    'alternate',
+		    'application/rss+xml',
+		    $this->createUrl('comment/feed',array('pid'=>$this->loadModel()->id)));
+		
 		$this->render('view',array(
 			'model'=>$this->loadModel(),
 			'issueDataProvider'=>$issueDataProvider,
@@ -140,11 +145,27 @@ class ProjectController extends Controller
 	 */
 	public function actionIndex()
 	{
+			$dataProvider=new CActiveDataProvider('Project');
+
+			Yii::app()->clientScript->registerLinkTag(
+			    'alternate',
+			    'application/rss+xml',
+			    $this->createUrl('comment/feed'));
+
+			$this->render('index',array(
+				'dataProvider'=>$dataProvider,
+			));
+	}
+	
+	/*
+	public function actionIndex()
+	{
 		$dataProvider=new CActiveDataProvider('Project');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
 	}
+	*/
 
 	/**
 	 * Manages all models.

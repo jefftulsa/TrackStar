@@ -15,3 +15,12 @@ $this->menu=array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 )); ?>
+
+<?php $this->beginWidget('zii.widgets.CPortlet', array(
+	'title'=>'Recent Comments',
+));  
+
+$this->widget('RecentComments');
+
+$this->endWidget(); ?>
+

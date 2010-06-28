@@ -51,7 +51,6 @@ $this->menu=array(
 		</h3>
 
 		<?php $this->renderPartial('_comments',array(
-			'issue'=>$model,
 			'comments'=>$model->comments,
 		)); ?>
 	<?php endif; ?>

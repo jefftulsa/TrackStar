@@ -61,7 +61,7 @@ class IssueController extends Controller
 	 */
 	public function actionView()
 	{
-		$issue=$this->loadModel();
+		$issue=$this->loadModel(true);
 		$comment=$this->createComment($issue);
 
 		$this->render('view',array(
@@ -193,12 +193,22 @@ class IssueController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 */
-	public function loadModel()
+	public function loadModel($withComments=false)
 	{
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=Issue::model()->findbyPk($_GET['id']);
+			{
+			     if($withComments)
+			     {
+				      $this->_model=Issue::model()->with(array(
+					                     'comments'=>array('with'=>'author')))->findbyPk($_GET['id']);
+				 }
+			     else
+			     {
+				      $this->_model=Issue::model()->findbyPk($_GET['id']);
+			     }
+			}
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}

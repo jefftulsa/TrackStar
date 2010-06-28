@@ -31,6 +31,16 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		
+		'urlManager'=>array(
+		    'urlFormat'=>'path',
+		    'rules'=>array(
+				'commentfeed'=>array('comment/feed', 'urlSuffix'=>'.xml', 'caseSensitive'=>false),
+				'<pid:\d+>/commentfeed'=>array('comment/feed', 'urlSuffix'=>'.xml', 'caseSensitive'=>false),
+				), 
+		    'showScriptName'=>false,   
+		 ),    
+		
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
@@ -76,7 +86,7 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning, trace',
 				),
 				// uncomment the following to show log messages on web pages
 				/*

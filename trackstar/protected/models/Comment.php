@@ -114,7 +114,7 @@ class Comment extends TrackStarActiveRecord
 
 	     if($projectId != null)
 		 {
-		      return Comment::model()->with(array(
+		      return self::model()->with(array(
 					'issue'=>array('condition'=>'project_id='.$projectId)))->findAll(array(
 					'order'=>'t.create_time DESC',
 					'limit'=>$limit,

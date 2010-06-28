@@ -27,5 +27,19 @@ return array(
 		'update_time' => '',
 		'update_user_id' => '',
 	),
+	'issueFeature2'=>array(
+		'name' => 'Test Feature For Project 3',
+		'description' => 'This is a test feature issue associated with project # 3 that is completed',
+		'project_id' => 3,
+		'type_id' => 1,
+		'status_id' => 2,
+		'owner_id' => 1,
+		'requester_id' => 1,
+		'create_time' => '',
+		'create_user_id' => '',
+		'update_time' => '',
+		'update_user_id' => '',
+	),  
+	
 );
 
