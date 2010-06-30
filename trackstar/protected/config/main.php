@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
+	'homeUrl'=>'/trackstar/project',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
