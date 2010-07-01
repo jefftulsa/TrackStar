@@ -2,7 +2,7 @@
 
 class SiteController extends Controller
 {
-	public $layout='newlayout';
+	//public $layout='newlayout';
 	
 	public $defaultAction = 'login';
 	
@@ -75,6 +75,8 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
+		//echo Yii::app()->theme->baseUrl;
+		//exit;
 		if(!Yii::app()->user->isGuest) 
 		{
 		     $this->redirect(Yii::app()->homeUrl);

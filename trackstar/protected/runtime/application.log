@@ -2654,3 +2654,643 @@ in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
 in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
 in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
 in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:00:57 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:43 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:47 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:52 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:53 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:53 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:53 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:53 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:53 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/main.php (35)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:53 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/main.php (35)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:53 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:54 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:55 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:55 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:55 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:01:55 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:55 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:56 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:56 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:56 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:03:56 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:32 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:33 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:34 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:34 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:34 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:34 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:35 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:04:36 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (78)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:05:09 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (101)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:05 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:31 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:32 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:32 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:32 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:32 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:32 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:32 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:32 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:33 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:14:34 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:56 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:15:58 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:34 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:47 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:47 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:47 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:47 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:47 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:47 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:47 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:48 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (10)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/contact.php (54)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:49 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (80)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/01 00:22:50 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
