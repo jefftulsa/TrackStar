@@ -75,8 +75,21 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		//echo Yii::app()->theme->baseUrl;
-		//exit;
+		/*
+		echo Yii::app()->language;
+		echo "<br>";
+		echo Yii::app()->sourceLanguage;
+		echo "<br>";
+		echo Yii::app()->request->getPreferredLanguage();
+		exit;
+		
+		
+		$locale = Yii::app()->getLocale('it');
+		print_r($locale->monthNames);
+		exit;
+		*/
+		Yii::app()->language = 'rev';
+		
 		if(!Yii::app()->user->isGuest) 
 		{
 		     $this->redirect(Yii::app()->homeUrl);
@@ -100,7 +113,9 @@ class SiteController extends Controller
 				$this->redirect(Yii::app()->user->returnUrl);
 		}
 		// display the login form
+		//public string findLocalizedFile(string $srcFile, string $srcLanguage=NULL, string $language=NULL)
 		$this->render('login',array('model'=>$model));
+		
 	}
 
 	/**
