@@ -47,20 +47,20 @@ EOD;
 
 			 //create the lowest level operations for users
 			 $this->_authManager->createOperation("createUser","create a new user"); 
-			 $this->_authManager->createOperation("readUser","read user profile in-formation"); 
-			 $this->_authManager->createOperation("updateUser","update a users in-formation"); 
+			 $this->_authManager->createOperation("readUser","read user profile information"); 
+			 $this->_authManager->createOperation("updateUser","update a users information"); 
 			 $this->_authManager->createOperation("deleteUser","remove a user from a project"); 
 
 			 //create the lowest level operations for projects
 			 $this->_authManager->createOperation("createProject","create a new project"); 
-			 $this->_authManager->createOperation("readProject","read project in-formation"); 
+			 $this->_authManager->createOperation("readProject","read project information"); 
 	 		 $this->_authManager->createOperation("updateProject","update project information"); 
 			 $this->_authManager->createOperation("deleteProject","delete a pro-ject"); 
 
 			 //create the lowest level operations for issues
-			 $this->_authManager->createOperation("createIssue","create a new is-sue"); 
-			 $this->_authManager->createOperation("readIssue","read issue informa-tion"); 
-			 $this->_authManager->createOperation("updateIssue","update issue in-formation"); 
+			 $this->_authManager->createOperation("createIssue","create a new issue"); 
+			 $this->_authManager->createOperation("readIssue","read issue information"); 
+			 $this->_authManager->createOperation("updateIssue","update issue information"); 
 			 $this->_authManager->createOperation("deleteIssue","delete an issue from a project");     
 
 			 //create the reader role and add the appropriate permissions as children to this role
@@ -86,6 +86,18 @@ EOD;
 			 $role->addChild("createProject"); 
 			 $role->addChild("updateProject"); 
 			 $role->addChild("deleteProject");	
+			
+			 //create a general task-level permission for admins
+			 $this->_authManager->createTask("adminManagement", "access to the application administration functionality");   
+			 //create the site admin role, and add the appropriate permissions	 
+			 $role=$this->_authManager->createRole("admin"); 
+			 $role->addChild('owner');
+			 $role->addChild("reader"); 
+			 $role->addChild("member");
+			 $role->addChild("adminManagement");
+			 //ensure we have one admin in the system (force it to be user id #1)
+			 $this->_authManager->assign("admin",1);
+			
 		
 		     //provide a message indicating success
 		     echo "Authorization hierarchy successfully generated.";

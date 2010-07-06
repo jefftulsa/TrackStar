@@ -120,6 +120,17 @@ CREATE TABLE IF NOT EXISTS `tbl_project_user_role`
 ) ENGINE = InnoDB
 ;
 
+CREATE TABLE IF NOT EXISTS `tbl_sys_messages`
+(
+   `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   `message` TEXT NOT NULL,  
+   `create_time` DATETIME,
+   `create_user_id` INTEGER,
+   `update_time` DATETIME,
+   `update_user_id` INTEGER 
+) ENGINE = InnoDB
+;
+
 -- The Relationships 
 ALTER TABLE `tbl_issue` ADD CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;
 

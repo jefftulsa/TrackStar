@@ -2,6 +2,6 @@
 return array (
   'template' => 'default',
   'tablePrefix' => 'tbl_',
-  'modelPath' => 'application.models',
+  'modelPath' => 'application.modules.admin.models',
   'baseClass' => 'CActiveRecord',
 );

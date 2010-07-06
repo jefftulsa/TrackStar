@@ -4136,3 +4136,1177 @@ in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103
 in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
 in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
 in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "messages" application component
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (39)
+in /Users/jeff/TrackStar/trackstar/protected/views/site/rev/login.php (21)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/rev/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:17 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/controllers/DefaultController.php (47)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/column1.php (7)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/controllers/DefaultController.php (47)
+2010/07/05 14:02:29 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/column1.php (7)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/controllers/DefaultController.php (17)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/column1.php (7)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/controllers/DefaultController.php (17)
+2010/07/05 14:02:32 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/column1.php (7)
+2010/07/05 14:02:42 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:42 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:42 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:42 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:42 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:42 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:42 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:02:43 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+2010/07/05 14:02:43 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/05 14:21:18 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:21:18 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:21:18 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:21:18 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:21:18 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:21:18 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:21:18 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:21:19 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+2010/07/05 14:21:19 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:22:56 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+2010/07/05 14:22:56 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:46 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+2010/07/05 14:23:46 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:51 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+2010/07/05 14:23:51 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/05 21:58:02 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:02 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:02 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:02 [trace] [system.base.CModule] Loading "admin" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:02 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:02 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:24 [trace] [system.base.CModule] Loading "admin" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index/default".' in /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CWebApplication.php:324
+Stack trace:
+#0 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CWebApplication.php(120): CWebApplication->runController('admin/index/def...')
+#1 /Users/jeff/TrackStar/Yii-1.1.2/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /Users/jeff/TrackStar/trackstar/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/trackstar/admin/index/default
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "errorHandler" application component
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (49)
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (49)
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (49)
+2010/07/05 21:58:24 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (49)
+2010/07/05 21:58:35 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:35 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:35 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:35 [trace] [system.base.CModule] Loading "admin" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:35 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 21:58:35 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:39:12 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:39:12 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:39:12 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:39:12 [trace] [system.base.CModule] Loading "admin" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:39:12 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:39:12 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/views/layouts/column1.php (7)
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+2010/07/05 22:39:12 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/views/layouts/column1.php (7)
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+2010/07/05 22:39:12 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "messages" application component
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (39)
+in /Users/jeff/TrackStar/trackstar/protected/views/site/rev/login.php (21)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/rev/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 22:42:41 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:04:46 [trace] [system.CModule] Loading "log" application component
+2010/07/05 23:04:46 [trace] [system.CModule] Loading "request" application component
+2010/07/05 23:04:46 [trace] [system.CModule] Loading "urlManager" application component
+2010/07/05 23:04:46 [trace] [system.CModule] Loading "user" application component
+2010/07/05 23:04:46 [trace] [system.CModule] Loading "session" application component
+2010/07/05 23:04:46 [trace] [system.CModule] Loading "themeManager" application component
+2010/07/05 23:04:47 [trace] [system.CModule] Loading "messages" application component
+2010/07/05 23:04:47 [trace] [system.CModule] Loading "clientScript" application component
+2010/07/05 23:04:47 [trace] [system.CModule] Loading "assetManager" application component
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.base.CModule] Loading "admin" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "authManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT name, type, description, t1.bizrule, t1.data, t2.bizrule AS bizrule2, t2.data AS data2 FROM AuthItem t1, AuthAssignment t2 WHERE name=itemname AND userid=:userid
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (27)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:15:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php:27
+Stack trace:
+#0 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CWebApplication.php(320): CController->run('index')
+#2 /Users/jeff/TrackStar/Yii-1.1.2/framework/web/CWebApplication.php(120): CWebApplication->runController('admin/default/i...')
+#3 /Users/jeff/TrackStar/Yii-1.1.2/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /Users/jeff/TrackStar/trackstar/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/admin/default/index
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "errorHandler" application component
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (49)
+2010/07/05 23:15:47 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (49)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "messages" application component
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (39)
+in /Users/jeff/TrackStar/trackstar/protected/views/site/rev/login.php (21)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/views/site/rev/login.php (45)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "authManager" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+2010/07/05 23:27:51 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+2010/07/05 23:27:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT name, type, description, t1.bizrule, t1.data, t2.bizrule AS bizrule2, t2.data AS data2 FROM AuthItem t1, AuthAssignment t2 WHERE name=itemname AND userid=:userid
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column1.php (8)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+2010/07/05 23:27:51 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (117)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:58 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:58 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:58 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:58 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:58 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:27:59 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:27:59 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:27:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:27:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:27:59 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+2010/07/05 23:27:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (103)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:28:02 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/models/User.php (29)
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+2010/07/05 23:28:02 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (112)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in /Users/jeff/TrackStar/trackstar/protected/components/UserIdentity.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (52)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (112)
+2010/07/05 23:28:02 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (71)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (112)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tbl_user` SET `last_login_time`=NOW() WHERE `tbl_user`.`id`=1
+in /Users/jeff/TrackStar/trackstar/protected/models/LoginForm.php (71)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (112)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/SiteController.php (93)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.db.ar.CActiveRecord] Project.count()
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (157)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (197)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (152)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (135)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (25)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (25)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (127)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (127)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.ar.CActiveRecord] Comment.findAll() eagerly
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (130)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`) ORDER BY t.create_time DESC LIMIT 5
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (130)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_time` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author` WHERE (`author`.`id`=:ypl0)
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.CModule] Loading "authManager" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column2.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT name, type, description, t1.bizrule, t1.data, t2.bizrule AS bizrule2, t2.data AS data2 FROM AuthItem t1, AuthAssignment t2 WHERE name=itemname AND userid=:userid
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column2.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column2.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:02 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:03 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:03 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:03 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.db.ar.CActiveRecord] Project.count()
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (99)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (151)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+2010/07/05 23:28:03 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CListView.php (157)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (17)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:03 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (197)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (152)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/zii/widgets/CBaseListView.php (135)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (25)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (25)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (127)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (127)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.ar.CActiveRecord] Comment.findAll() eagerly
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (130)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`) ORDER BY t.create_time DESC LIMIT 5
+in /Users/jeff/TrackStar/trackstar/protected/models/Comment.php (130)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (13)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_time` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author` WHERE (`author`.`id`=:ypl0)
+in /Users/jeff/TrackStar/trackstar/protected/components/views/recentComments.php (4)
+in /Users/jeff/TrackStar/trackstar/protected/components/RecentComments.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/views/project/index.php (23)
+2010/07/05 23:28:03 [trace] [system.CModule] Loading "authManager" application component
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column2.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT name, type, description, t1.bizrule, t1.data, t2.bizrule AS bizrule2, t2.data AS data2 FROM AuthItem t1, AuthAssignment t2 WHERE name=itemname AND userid=:userid
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column2.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/jeff/TrackStar/trackstar/themes/new/views/layouts/main.php (33)
+in /Users/jeff/TrackStar/trackstar/protected/views/layouts/column2.php (24)
+in /Users/jeff/TrackStar/trackstar/protected/controllers/ProjectController.php (157)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.base.CModule] Loading "admin" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "authManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT name, type, description, t1.bizrule, t1.data, t2.bizrule AS bizrule2, t2.data AS data2 FROM AuthItem t1, AuthAssignment t2 WHERE name=itemname AND userid=:userid
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:28:07 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/controllers/DefaultController.php (17)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/column1.php (7)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/controllers/DefaultController.php (17)
+2010/07/05 23:52:26 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/column1.php (7)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/05 23:52:30 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/views/index.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/05 23:52:30 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:03:11 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/views/index.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:03:11 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:04:59 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:04:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/07/06 00:04:59 [error] [system.db.CDbCommand] Error in querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/views/index.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:04:59 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:11:30 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `AuthAssignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `AuthAssignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `AuthItem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `AuthItem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `AuthItemChild`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `AuthItemChild`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project_user_assignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project_user_assignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project_user_role`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project_user_role`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `authitem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (319)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (262)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+2010/07/06 00:11:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `authitem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (319)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (262)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/views/index.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:30 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "log" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "request" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.base.CModule] Loading "gii" module
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "user" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "session" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (168)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "db" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:11:38 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (45)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (149)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (61)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `AuthAssignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `AuthAssignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `AuthItem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `AuthItem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `AuthItemChild`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `AuthItemChild`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project_user_assignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project_user_assignment`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project_user_role`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project_user_role`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (224)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (158)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `authitem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (319)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (262)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+2010/07/06 00:11:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `authitem`
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (319)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (262)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (71)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/generators/model/views/index.php (2)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/CCodeGenerator.php (70)
+in /Users/jeff/TrackStar/trackstar/index.php (11)
+2010/07/06 00:11:38 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/GiiModule.php (136)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/main.php (3)
+in /Users/jeff/TrackStar/Yii-1.1.2/framework/gii/views/layouts/generator.php (25)
