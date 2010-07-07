@@ -1,6 +1,6 @@
 <?php
 
-class ProjectController extends Controller
+class SysMessageController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to 'column2', meaning
@@ -31,47 +31,24 @@ class ProjectController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'adduser'),
-				'users'=>array('@'),
-			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
-				'users'=>array('@'),
-			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+			array('allow',  // allow only users in the 'admin' role access to our ac-tions
+				'actions'=>array('index','view', 'create', 'update', 'admin', 'delete'),
+				'roles'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
 		);
 	}
+	
 
 	/**
 	 * Displays a particular model.
 	 */
 	public function actionView()
 	{
-		$issueDataProvider=new CActiveDataProvider('Issue', array(
-			'criteria'=>array(
-		 		'condition'=>'project_id=:projectId',
-		 		'params'=>array(':projectId'=>$this->loadModel()->id),
-		 	),
-		 	'pagination'=>array(
-		 		'pageSize'=>1,
-		 	),
-		 ));
-		
-		Yii::app()->clientScript->registerLinkTag(
-		    'alternate',
-		    'application/rss+xml',
-		    $this->createUrl('comment/feed',array('pid'=>$this->loadModel()->id)));
-		
 		$this->render('view',array(
 			'model'=>$this->loadModel(),
-			'issueDataProvider'=>$issueDataProvider,
 		));
 	}
 
@@ -81,14 +58,14 @@ class ProjectController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Project;
+		$model=new SysMessage;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Project']))
+		if(isset($_POST['SysMessage']))
 		{
-			$model->attributes=$_POST['Project'];
+			$model->attributes=$_POST['SysMessage'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -109,9 +86,9 @@ class ProjectController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Project']))
+		if(isset($_POST['SysMessage']))
 		{
-			$model->attributes=$_POST['Project'];
+			$model->attributes=$_POST['SysMessage'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -145,47 +122,20 @@ class ProjectController extends Controller
 	 */
 	public function actionIndex()
 	{
-			$dataProvider=new CActiveDataProvider('Project');
-
-			Yii::app()->clientScript->registerLinkTag(
-			    'alternate',
-			    'application/rss+xml',
-			    $this->createUrl('comment/feed'));
-
-			//get the latest system message to display based on the update_time column
-			$sysMessage = SysMessage::model()->find(array(
-				'order'=>'t.update_time DESC',
-			));
-			if($sysMessage != null)
-				$message = $sysMessage->message;
-			else
-			    $message = null;
-			
-			
-			$this->render('index',array(
-				'dataProvider'=>$dataProvider,
-				'sysMessage'=>$message,
-			));
-	}
-	
-	/*
-	public function actionIndex()
-	{
-		$dataProvider=new CActiveDataProvider('Project');
+		$dataProvider=new CActiveDataProvider('SysMessage');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
 	}
-	*/
 
 	/**
 	 * Manages all models.
 	 */
 	public function actionAdmin()
 	{
-		$model=new Project('search');
-		if(isset($_GET['Project']))
-			$model->attributes=$_GET['Project'];
+		$model=new SysMessage('search');
+		if(isset($_GET['SysMessage']))
+			$model->attributes=$_GET['SysMessage'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -201,7 +151,7 @@ class ProjectController extends Controller
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=Project::model()->findbyPk($_GET['id']);
+				$this->_model=SysMessage::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}
@@ -214,41 +164,10 @@ class ProjectController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='project-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='sys-message-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
-	}
-	
-	public function actionAdduser()
-	{
-		$project = $this->loadModel();
-		if(!Yii::app()->user->checkAccess('createUser', array('project'=>$project)))
-	    {
-			throw new CHttpException(403,'You are not authorized to per-form this action.');
-		} 
-	    $form=new ProjectUserForm; 
-	    // collect user input data
-		if(isset($_POST['ProjectUserForm']))
-		{
-			$form->attributes=$_POST['ProjectUserForm'];
-			$form->project = $project;
-			// validate user input and set a sucessfull flassh message if valid   
-			if($form->validate())  
-			{
-				Yii::app()->user->setFlash('success',$form->username . " has been added to the project." ); 
-				$form=new ProjectUserForm;
-			}
-		}
-		// display the add user form
-		$users = User::model()->findAll();
-		$usernames=array();
-		foreach($users as $user)
-		{
-			$usernames[]=$user->username;
-		}
-		$form->project = $project;
-		$this->render('adduser',array('model'=>$form, 'usernames'=>$usernames)); 
 	}
 }

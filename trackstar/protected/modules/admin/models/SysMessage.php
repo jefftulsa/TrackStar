@@ -3,7 +3,7 @@
 /**
  * This is the model class for table "tbl_sys_message".
  */
-class SysMessage extends CActiveRecord
+class SysMessage extends TrackstarActiveRecord
 {
 	/**
 	 * The followings are the available columns in table 'tbl_sys_message':
@@ -41,8 +41,6 @@ class SysMessage extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('message', 'required'),
-			array('create_user_id, update_user_id', 'numerical', 'integerOnly'=>true),
-			array('create_time, update_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, message, create_time, create_user_id, update_time, update_user_id', 'safe', 'on'=>'search'),
