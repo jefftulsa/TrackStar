@@ -75,20 +75,9 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		/*
-		echo Yii::app()->language;
-		echo "<br>";
-		echo Yii::app()->sourceLanguage;
-		echo "<br>";
-		echo Yii::app()->request->getPreferredLanguage();
-		exit;
-		
-		
-		$locale = Yii::app()->getLocale('it');
-		print_r($locale->monthNames);
-		exit;
-		*/
 		Yii::app()->language = 'rev';
+		
+		Yii::trace("The actionLogin() method is being requested", "application.controllers.SiteController");
 		
 		if(!Yii::app()->user->isGuest) 
 		{
@@ -110,7 +99,15 @@ class SiteController extends Controller
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
+			{
+				Yii::log("Successful login of user: " . Yii::app()->user->id, "info", "application.controllers.SiteController");
 				$this->redirect(Yii::app()->user->returnUrl);
+			}
+			else
+			{
+				Yii::log("Failed login attempt", "warning", "application.controllers.SiteController");
+			}
+				
 		}
 		// display the login form
 		//public string findLocalizedFile(string $srcFile, string $srcLanguage=NULL, string $language=NULL)
@@ -126,4 +123,11 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+	
+	public function actionShowLog()
+	{
+		echo "Logged Messages:<br><br>";
+		var_dump(Yii::getLogger()->getLogs());
+	}
+	
 }

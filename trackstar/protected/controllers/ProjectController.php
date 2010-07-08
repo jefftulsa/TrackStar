@@ -203,7 +203,8 @@ class ProjectController extends Controller
 			if(isset($_GET['id']))
 				$this->_model=Project::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
-				throw new CHttpException(404,'The requested page does not exist.');
+				//throw new CHttpException(404,'The requested page does not exist.');
+				throw new CException('The is an example of throwing a CException');
 		}
 		return $this->_model;
 	}
