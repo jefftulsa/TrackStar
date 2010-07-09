@@ -120,7 +120,7 @@ CREATE TABLE IF NOT EXISTS `tbl_project_user_role`
 ) ENGINE = InnoDB
 ;
 
-CREATE TABLE IF NOT EXISTS `tbl_sys_messages`
+CREATE TABLE IF NOT EXISTS `tbl_sys_message`
 (
    `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
    `message` TEXT NOT NULL,  

@@ -103,6 +103,10 @@ return array(
 				),
 			),
 		),
+		'cache'=>array(
+		    'class'=>'system.caching.CFileCache',
+		),
+		
 	),
 
 	// application-level parameters that can be accessed

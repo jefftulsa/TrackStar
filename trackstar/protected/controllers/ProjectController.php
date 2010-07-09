@@ -20,6 +20,11 @@ class ProjectController extends Controller
 	{
 		return array(
 			'accessControl', // perform access control for CRUD operations
+			array(
+				'COutputCache + view',  //cache the entire output from the actionView() method for 2 minutes
+			    'duration'=>120,
+			    'varyByParam'=>array('id'),
+			),	
 		);
 	}
 
@@ -160,7 +165,6 @@ class ProjectController extends Controller
 				$message = $sysMessage->message;
 			else
 			    $message = null;
-			
 			
 			$this->render('index',array(
 				'dataProvider'=>$dataProvider,

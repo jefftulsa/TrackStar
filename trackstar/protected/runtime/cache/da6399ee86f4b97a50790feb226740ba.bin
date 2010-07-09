@@ -1,0 +1,117 @@
+a:2:{i:0;a:2:{i:0;s:4742:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/trackstar/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/trackstar/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/trackstar/css/ie.css" media="screen, projection" />
+	<![endif]-->
+    <link rel="stylesheet" type="text/css" href="/trackstar/themes/new/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/trackstar/css/form.css" />
+
+	<link rel="alternate" type="application/rss+xml" href="/trackstar/commentfeed.xml?pid=3" />
+<link rel="stylesheet" type="text/css" href="/trackstar/assets/224414c1/detailview/styles.css" />
+<link rel="stylesheet" type="text/css" href="/trackstar/assets/224414c1/listview/styles.css" />
+<link rel="stylesheet" type="text/css" href="/trackstar/assets/dc034eac/pager.css" />
+<script type="text/javascript" src="/trackstar/assets/4e112d24/jquery.js"></script>
+<script type="text/javascript" src="/trackstar/assets/4e112d24/jquery.ba-bbq.js"></script>
+<script type="text/javascript" src="/trackstar/assets/4e112d24/jquery.yii.js"></script>
+<script type="text/javascript" src="/trackstar/assets/224414c1/listview/jquery.yiilistview.js"></script>
+<title>TrackStar - View Project</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header"></div><!-- header image is embeded into the #header declaration in main.css -->
+	
+
+	<div id="mainmenu">
+		<ul id="yw6">
+<li><a href="/trackstar/project">Projects</a></li>
+<li><a href="/trackstar/site/page/view/about">About</a></li>
+<li><a href="/trackstar/site/contact">Contact</a></li>
+<li><a href="/trackstar/admin/default/index">Admin</a></li>
+<li><a href="/trackstar/site/logout">Logout (Test_User_One)</a></li>
+</ul>	</div><!-- mainmenu -->
+
+	<div class="breadcrumbs">
+<a href="/trackstar/project">Home</a> &raquo; <a href="/trackstar/project/index">Projects</a> &raquo; <span>New project during cache</span></div><!-- breadcrumbs -->
+
+	<div class="container">
+	<div class="span-19">
+		<div id="content">
+			
+<h1>View Project #3</h1>
+
+<table class="detail-view" id="yw1"><tr class="odd"><th>ID</th><td>3</td></tr>
+<tr class="even"><th>Name</th><td>New project during cache</td></tr>
+<tr class="odd"><th>Description</th><td>Hello</td></tr>
+<tr class="even"><th>Create Time</th><td>2010-07-08 23:10:09</td></tr>
+<tr class="odd"><th>Create User</th><td>1</td></tr>
+<tr class="even"><th>Update Time</th><td>2010-07-08 23:10:09</td></tr>
+<tr class="odd"><th>Update User</th><td>1</td></tr>
+</table>
+<br>
+<h1>Project Issues</h1>
+
+<div id="yw2" class="list-view">
+<div class="keys" style="display:none" title="/trackstar/project/view/id/3"></div>
+
+
+<div class="items">
+<span class="empty">No results found.</span></div>
+</div>
+<div class="portlet" id="yw3">
+<div class="portlet-decoration">
+<div class="portlet-title">Recent Project Comments</div>
+</div>
+<div class="portlet-content">
+<ul>
+	</ul>
+</div>
+</div>
+		</div><!-- content -->
+	</div>
+	<div class="span-5 last">
+		<div id="sidebar">
+		<div class="portlet" id="yw4">
+<div class="portlet-decoration">
+<div class="portlet-title">Operations</div>
+</div>
+<div class="portlet-content">
+<ul class="operations" id="yw5">
+<li><a href="/trackstar/project/index">List Project</a></li>
+<li><a href="/trackstar/project/create">Create Project</a></li>
+<li><a href="/trackstar/project/update/id/3">Update Project</a></li>
+<li><a href="#" id="yt0">Delete Project</a></li>
+<li><a href="/trackstar/project/admin">Manage Project</a></li>
+<li><a href="/trackstar/issue/create/pid/3">Create Issue</a></li>
+<li><a href="/trackstar/project/adduser/id/3">Add User To Project</a></li>
+</ul></div>
+</div>		</div><!-- sidebar -->
+	</div>
+</div>
+
+	<div id="footer">
+		Copyright &copy; 2010 by TrackStar.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(document).ready(function() {
+jQuery('#yw2').yiiListView({'ajaxUpdate':['yw2'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'list-view-loading','sorterClass':'sorter'});
+jQuery('#yt0').live('click',function(){if(confirm('Are you sure you want to delete this item?')) {jQuery.yii.submitForm(this,'/trackstar/project/delete/id/3',{});return false;} else return false;});
+});
+/*]]>*/
+</script>
+</body>
+</html>";i:1;a:10:{i:0;a:3:{i:0;s:12:"clientScript";i:1;s:15:"registerLinkTag";i:2;a:3:{i:0;s:9:"alternate";i:1;s:19:"application/rss+xml";i:2;s:32:"/trackstar/commentfeed.xml?pid=3";}}i:1;a:3:{i:0;s:12:"clientScript";i:1;s:15:"registerCssFile";i:2;a:1:{i:0;s:48:"/trackstar/assets/224414c1/detailview/styles.css";}}i:2;a:3:{i:0;s:12:"clientScript";i:1;s:15:"registerCssFile";i:2;a:1:{i:0;s:46:"/trackstar/assets/224414c1/listview/styles.css";}}i:3;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerCoreScript";i:2;a:1:{i:0;s:6:"jquery";}}i:4;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerCoreScript";i:2;a:1:{i:0;s:3:"bbq";}}i:5;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerScriptFile";i:2;a:1:{i:0;s:57:"/trackstar/assets/224414c1/listview/jquery.yiilistview.js";}}i:6;a:3:{i:0;s:12:"clientScript";i:1;s:14:"registerScript";i:2;a:2:{i:0;s:13:"CListView#yw2";i:1;s:147:"jQuery('#yw2').yiiListView({'ajaxUpdate':['yw2'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'list-view-loading','sorterClass':'sorter'});";}}i:7;a:3:{i:0;s:12:"clientScript";i:1;s:15:"registerCssFile";i:2;a:1:{i:0;s:36:"/trackstar/assets/dc034eac/pager.css";}}i:8;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerCoreScript";i:2;a:1:{i:0;s:3:"yii";}}i:9;a:3:{i:0;s:12:"clientScript";i:1;s:14:"registerScript";i:2;a:2:{i:0;s:14:"Yii.CHtml.#yt0";i:1;s:198:"jQuery('#yt0').live('click',function(){if(confirm('Are you sure you want to delete this item?')) {jQuery.yii.submitForm(this,'/trackstar/project/delete/id/3',{});return false;} else return false;});";}}}}i:1;N;}

@@ -28,11 +28,15 @@ endif; ?>
 	'itemView'=>'_view',
 )); ?>
 
-<?php $this->beginWidget('zii.widgets.CPortlet', array(
-	'title'=>'Recent Comments',
-));  
-
-$this->widget('RecentComments');
-
-$this->endWidget(); ?>
+<?php
+$key = "TrackStar.ProjectListing.RecentComments";
+if($this->beginCache($key, array('duration'=>10))) {
+ 	$this->beginWidget('zii.widgets.CPortlet', array(
+		'title'=>'Recent Comments',
+	));  
+	$this->widget('RecentComments');
+	$this->endWidget();
+	$this->endCache(); 
+}
+?>
 
