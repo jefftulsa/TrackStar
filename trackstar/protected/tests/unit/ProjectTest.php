@@ -160,7 +160,7 @@ class ProjectTest extends CDbTestCase
 				public function testGetUserRoleOptions()
 				{
 					     $options = Project::getUserRoleOptions();      
-					     $this->assertEquals(count($options),3); 
+					     $this->assertEquals(count($options),4); 
 					     $this->assertTrue(isset($options['reader'])); 
 					     $this->assertTrue(isset($options['member'])); 
 					     $this->assertTrue(isset($options['owner'])); 
